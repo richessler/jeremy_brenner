@@ -1,0 +1,150 @@
+/****************************
+GENERAL
+*****************************/
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer a{
+  padding: 10px;
+}
+
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+div{
+  margin: 0px 220px;
+}
+
+
+/****************************
+HEADING
+*****************************/
+
+.main-portrait{
+  margin: 50px 0px 0px 0px;
+  border-radius: 100px;
+}
+
+
+h1{
+  font-family:'Oswald', sans-serif;
+  text-align: center;
+  font-size: 70px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+/****************************
+NAVIGATION
+*****************************/
+
+nav {
+  text-align: auto 0;
+  padding: 10px;
+  background: #000;
+  border-radius:10px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+nav li {
+  display: inline;
+  padding: 0px 20px 0px 20px;
+}
+
+/*static nav colors*/
+nav a, nav a:visited
+{
+  color: #fff;
+}
+
+/*hover nav color*/
+ nav a:hover {
+  color:#949494;
+}
+
+/****************************
+ABOUT PAGE
+*****************************/
+
+#about h2 {
+  margin-bottom: 0px;
+  font-family:'Oswald', sans-serif;
+}
+
+.about-img2 {
+  border-radius: 90px;
+}
+
+.about-img3 {
+  border-radius: 30px;
+}
+
+.about-text {
+  padding: 30px;
+}
+
+/****************************
+Gallery
+*****************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+  border-radius: 30px;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #949494;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.gallery-img {
+  max-width: 100%;
+  border-radius: 30px 30px 0px 0px;
+}
+
+
+
+
+
